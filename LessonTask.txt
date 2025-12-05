@@ -1,0 +1,10 @@
+Tasks:
+identify all the places within the current robot code where smart dashboard/sendable chooser is used
+Display the value of our encoder in the AlgaeEndEffector and beam breaks in the CoralEndEffector with SmartDashboard.
+Display the value of the all the voltages of all the subsystems
+Display the voltageOutput value in the algaeSetPoint method as a line plot.
+Display all the binded controls so that the driver knows which buttons do what
+Display all the subsystems on SmartDashboard using putData()
+
+Create a sendable chooser that allows you to choose the distance in which for the algae arm to move. Distances should range from 0-1. This should update the setpoint of the algae. 
+Create a command that uses the value from SendableChooser and runs algaeSetPoint with the value
